@@ -181,7 +181,7 @@ browseURL(url = "https://developers.google.com/maps/documentation/geocoding/get-
 browseURL(url = "https://github.com/eduard-martinez/geocode-addresses", browser = getOption("browser")) # Geocode direcciones usando Google Maps
 
 #### 4.2. Mapas usando imagenes satelitales
-register_google(key = "AIzaSyAL8HtUixqTrQvyEPKYZCkVcmRc13SidVs")
+register_google(key = "Escribir su API key de Google")
 get_map(location = 'Barranquilla',maptype = 'satellite',zoom = 12) %>% ggmap()
 get_map(location = 'Barranquilla',maptype = 'satellite',zoom = 14) %>% ggmap()
 
