@@ -32,9 +32,6 @@ rm(paquetes)
 # 1. Mapas basicos #
 #------------------#
 
-#### 1.0. Veamos la intuicion primero
-rstudioapi::viewer(url = "help/mapas-en-R.html")
-
 #### 1.1. Cargar shapefiles
 browseURL(url = "https://geoportal.dane.gov.co/servicios/descarga-y-metadatos/descarga-mgn-marco-geoestadistico-nacional/", browser = getOption("browser")) # Fuente: MGN 
 
